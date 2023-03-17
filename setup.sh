@@ -5,7 +5,7 @@ base_dir=~/.config/nvim/
 
 if [[ ! -d  $base_dir ]] # test if base_dir does not exist
 then
-	mkdir -p init.vim $base_dir
+	mkdir -p $base_dir
 fi
 
 cp init.vim $base_dir # copy source files into their target folders
