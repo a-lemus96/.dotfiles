@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
-# File: .setup.sh
+# File: setup.sh
 
-dir="~/.config/nvim/"
+dir=~/.config/nvim/
 
-if [[ -d  $dir]]
+if [[ -d  $dir ]]
 then
 	cp init.vim $dir
 else
-	echo "Directory $dir does not exist"
+	echo Directory $dir does not exist
+fi 
