@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # File: .setup.sh
 
-dir=".config/nvim/"
+dir="~/.config/nvim/"
 
 if [[ -d  $dir]]
 then
